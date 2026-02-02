@@ -1,5 +1,37 @@
 # Changelog
 
+## [2026.2.2](https://github.com/jdx/mise/compare/v2026.2.1..v2026.2.2) - 2026-02-02
+
+### 🚀 Features
+
+- **(crates/vfox)** add download_path to BackendInstall context by @malept in [#7959](https://github.com/jdx/mise/pull/7959)
+
+### 🐛 Bug Fixes
+
+- retry spawn on ETXTBSY (Text file busy) by @jdx in [#7964](https://github.com/jdx/mise/pull/7964)
+
+### 📚 Documentation
+
+- improve plugin documentation with comparisons and template links by @jdx in [#7962](https://github.com/jdx/mise/pull/7962)
+
+### Chore
+
+- **(vfox)** add LuaCATS type definitions for plugin IDE support by @jdx in [#7961](https://github.com/jdx/mise/pull/7961)
+- add stylua linting for vfox plugin Lua files by @jdx in [#7960](https://github.com/jdx/mise/pull/7960)
+- use system Rust for PPA builds on Ubuntu 26.04+ by @jdx in [#7956](https://github.com/jdx/mise/pull/7956)
+
+### 📦 Aqua Registry Updates
+
+#### New Packages (2)
+
+- [`dodobrands/Peekie`](https://github.com/dodobrands/Peekie)
+- [`str4d/age-plugin-yubikey`](https://github.com/str4d/age-plugin-yubikey)
+
+#### Updated Packages (3)
+
+- [`biomejs/biome`](https://github.com/biomejs/biome)
+- [`rust-cross/cargo-zigbuild`](https://github.com/rust-cross/cargo-zigbuild)
+- [`siderolabs/talos`](https://github.com/siderolabs/talos)
 ## [2026.2.1](https://github.com/jdx/mise/compare/v2026.2.0..v2026.2.1) - 2026-02-02
 
 ### 🚀 Features
